@@ -1,0 +1,27 @@
+{
+  "name": "tax-poblem",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest" : {
+    "automock" :false,
+    "collectCoverage" :true,
+    "roots": [
+      "<rootDir>/tests/"
+    ],
+    "modulePaths": [
+      "<rootDir>/src"
+    ]
+  },
+  "author": "Continuity Tribe",
+  "description": "MYOB Tax Problem",
+  "license": "None",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "github.com:MYOB-Technology/continuity-code-retreat-preperation."
+  },
+  "dependencies": {
+  }
+}
